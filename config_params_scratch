@@ -1,0 +1,21 @@
+Source IP Address:
+<source_ip_address> value of source_ip_address </source_ip_address>
+
+Destination IP Address:
+<destination_ip_address> value of destination_ip_address </destination_ip_address>
+
+Source Port:
+<source_port> value of source_port </source_port>
+
+Destination Port:
+<destination_port> value of destination_port </destination_port>
+
+Protocol:
+<protocol> value of protocol </protocol>
+
+Source Mask:
+<source_mask> value of source_mask </source_mask>
+Destination Mask:
+<destination_mask> value of destination_mask </destination_mask>
+
+

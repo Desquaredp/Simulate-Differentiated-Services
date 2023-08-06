@@ -1,0 +1,49 @@
+<queues>
+  <queue>
+    <name>Queue1</name>
+    <weight>3</weight>
+    <is_default>true</is_default>
+    <filters>
+      <filter_elements>
+        <destination_port>3</destination_port>
+      </filter_elements>
+      <filter_elements>
+        <source_ip_address>1.0.9.3</source_ip_address>
+        <source_port>8080</source_port>
+      </filter_elements>
+      <filter_elements>
+        <source_ip_address>1.0.19.3</source_ip_address>
+        <source_port>8080</source_port>
+      </filter_elements>
+    </filters>
+  </queue>
+  <queue>
+    <name>Queue2</name>
+    <weight>2</weight>
+    <filters>
+      <filter_elements>
+        <destination_port>2</destination_port>
+      </filter_elements>
+      <filter_elements>
+        <source_ip_address>1.0.9.55</source_ip_address>
+        <source_port>8080</source_port>
+      </filter_elements>
+    </filters>
+  </queue>
+  <queue>
+    <name>Queue3</name>
+    <weight>1</weight>
+    <filters>
+      <filter_elements>
+        <destination_port>1</destination_port>
+      </filter_elements>
+      <filter_elements>
+        <source_ip_address>1.0.9.55</source_ip_address>
+        <source_port>8080</source_port>
+      </filter_elements>
+    </filters>
+  </queue>
+
+
+</queues>
+

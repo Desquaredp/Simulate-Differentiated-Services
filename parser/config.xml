@@ -1,0 +1,31 @@
+<queue>
+  <item>
+    <name>Queue1</name>
+    <weight>3</weight>
+    <filters>
+      <filterElements>
+        <ip>1.0.9.2</ip>
+        <port>1002</port>
+      </filterElements>
+      <filterElements>
+        <ip>1.0.9.3</ip>
+        <port>8080</port>
+      </filterElements>
+    </filters>
+  </item>
+  <item>
+    <name>Queue2</name>
+    <weight>2</weight>
+    <filters>
+      <filterElements>
+        <ip>1.0.9.44</ip>
+        <port>1002</port>
+      </filterElements>
+      <filterElements>
+        <ip>1.0.9.55</ip>
+        <port>8080</port>
+      </filterElements>
+    </filters>
+  </item>
+</queue>
+
